@@ -1,6 +1,6 @@
 package PrimeiroModulo;
 
-@SuppressWarnings("ReassignedVariable")
+@SuppressWarnings("ALL")
 public class PrimeirasAulas {
     public static void main(String[] args) {
         System.out.println("Hello World");
@@ -31,7 +31,6 @@ public class PrimeirasAulas {
         System.out.println("______________________");
 
 
-
         int myMinIntValue = Integer.MIN_VALUE;
         System.out.println("Integer Minimum Value = " + myMinIntValue);
         int myMaxIntValue = Integer.MAX_VALUE;
@@ -39,12 +38,12 @@ public class PrimeirasAulas {
         System.out.println("______________________");
 
 
-        System.out.println("Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE+ ")" );
+        System.out.println("Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")");
         System.out.println(
                 "Integer Value Range ("
-                + Integer.MIN_VALUE +
+                        + Integer.MIN_VALUE +
                         " to "
-                + Integer.MAX_VALUE +
+                        + Integer.MAX_VALUE +
                         ")"
         );
         System.out.println("______________________");
@@ -60,13 +59,14 @@ public class PrimeirasAulas {
         System.out.println("______________________");
 
         System.out.println("Byte Value Range (" + Byte.MIN_VALUE + " to " + Byte.MAX_VALUE + ")");
-        System.out.println("Short Value Range (" + Short.MIN_VALUE + " to " + Short.MAX_VALUE + ")" );
-        System.out.println("Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")" );
-        System.out.println("Long Value Range (" +Long.MIN_VALUE + " to " + Long.MAX_VALUE + ")" );
+        System.out.println("Short Value Range (" + Short.MIN_VALUE + " to " + Short.MAX_VALUE + ")");
+        System.out.println("Integer Value Range (" + Integer.MIN_VALUE + " to " + Integer.MAX_VALUE + ")");
+        System.out.println("Long Value Range (" + Long.MIN_VALUE + " to " + Long.MAX_VALUE + ")");
         System.out.println("A Long has a width of " + Long.SIZE + " bits");
         System.out.println("______________________");
 
-        short myMinShortValue = Short.MIN_VALUE; int MyMinIntValue = Integer.MIN_VALUE;
+        short myMinShortValue = Short.MIN_VALUE;
+        int MyMinIntValue = Integer.MIN_VALUE;
         /// é possivel declarar dois tipos diferentes de variáveis na mesma linha, só precisa separar com ;
         byte myMinByteValue = Byte.MIN_VALUE, myMaxByteValue = Byte.MAX_VALUE;
         /// também é possivel declarar mais do que uma variável do mesmo tipo de dado na mesma linha usando vírgula
@@ -91,6 +91,41 @@ public class PrimeirasAulas {
         System.out.println(longTotal);
         System.out.println("______________________");
 
+        double doublevalue = Double.MAX_VALUE;
+        System.out.println(doublevalue);
+
+
+        System.out.println("Float Value Range (" + Float.MIN_VALUE + " to " + Float.MAX_VALUE + ")");
+
+        System.out.println("Double Value Range (" + Double.MIN_VALUE + " to " + Double.MAX_VALUE + ")");
+
+        int mySecondIntValue = 5 / 2;
+        float myFloatValue = 5f / 2f;
+        double myDoubleValue = 5d / 2d;
+
+        /// exercicio
+        float myOtherFloatValue = (float) 5.25;
+        System.out.println(myOtherFloatValue);
+
+        /// exercicio
+        /// convertion ratio = 0.45359237
+        double myPoundValue = 200;
+        double ConvertionRatio = 0.45359237;
+        double Total = (myPoundValue * ConvertionRatio);
+        System.out.print(Total);
+        System.out.println("______________________");
+
+        /// char se usa ', não ". Quem usa " é String
+        char myChar = 'D';
+
+        String myString = "This is a String";
+
+        {
+            String numberString = "250.55";
+            numberString = numberString + "49,45";
+            System.out.println(numberString);
+        }
+        /// ta errado, burro
 
 
 
