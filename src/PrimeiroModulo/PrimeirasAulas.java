@@ -3,8 +3,8 @@ package PrimeiroModulo;
 @SuppressWarnings("ALL")
 public class PrimeirasAulas {
     public static void main(String[] args) {
-        System.out.println("Hello World");
-        System.out.println("Hello, Dan");
+        System.out.println("PrimeiroModulo.Hello World");
+        System.out.println("PrimeiroModulo.Hello, Dan");
 
         int myFirstNumber = 5;
         System.out.println(myFirstNumber);
