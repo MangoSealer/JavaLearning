@@ -112,7 +112,7 @@ public class PrimeirasAulas {
         double myPoundValue = 200;
         double ConvertionRatio = 0.45359237;
         double Total = (myPoundValue * ConvertionRatio);
-        System.out.print(Total);
+        System.out.println(Total);
         System.out.println("______________________");
 
         /// char se usa ', não ". Quem usa " é String
@@ -124,8 +124,78 @@ public class PrimeirasAulas {
             String numberString = "250.55";
             numberString = numberString + "49,45";
             System.out.println(numberString);
+            System.out.println("______________________");
         }
         /// ta errado, burro
+
+        char firstChar = 'A';
+        char secondChar = 'B';
+        System.out.println(firstChar + secondChar);  // 131
+        System.out.println("" + firstChar + secondChar); // AB
+
+        /// char não faz concatenação, output é a soma do valor decimal de cada caractere
+        /// pra fazer o output certo e concatenar o valor dos dois é necessario usar "" que seria considerado
+        /// uma "empty string", transformando o char em string e fazendo o output certo
+
+        int result_ = 5;
+        result_ = result_ % 3;
+        System.out.println(result_);
+        /// operador REMAINDER %%%%%
+
+        System.out.println("______________________");
+
+        {
+            int result = 1;
+            result = result + 1;
+            System.out.println("result = " + result);
+        }
+
+        {
+            int result = 1;
+            result++; // não precisa declarar novamente, aqui é basicamente "bota mais um na result"
+            System.out.println("result = " + result);
+        }
+
+        {
+            int result = 1;
+            result--;
+            System.out.println("result = " + result);
+        }
+
+        {
+            int result = 1;
+            result -= 2; // parecido com o acima, mas de uma forma levente diferente e dá pra definir a quantidade
+            System.out.println("result = " + result);
+        }
+
+        {
+            int result = 1;
+            result += 5;
+            System.out.println("result = " + result);
+        }
+
+        { /// exercicio
+            int result = 10;
+            result -= 5.5;
+            System.out.println("result deu = " + result);
+        }
+        // vai dar 4, pq a expressão (variavel) -= (literal) dá um output de (variavel) = (int, no caso) (variavel - literal);
+        // ou seja, vai dar um cast no tipo da variavel que foi criada inicialmente
+
+        {
+            double result = 10;
+            result *= 1.5;
+            System.out.println("result = " + result);
+        }
+
+        {
+            double result = 10;
+            result /= 1.5;
+            System.out.println("result = " + result);
+        }
+
+
+
 
 
 
